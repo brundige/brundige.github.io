@@ -4,6 +4,7 @@
 
 
 body{
+
     background-color: whitesmoke;
     display: flex;
     flex-direction: column;
@@ -11,6 +12,25 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    height: 10vh;
+    background-color: rgba(255, 255, 255, 0.1);
+
+    backdrop-filter: blur(5px);
+
+
+
 
 }
 
@@ -29,12 +49,8 @@ body{
 
 .logo {
     display: flex;
-    flex-direction: row;
-    margin: 20px;
-    width: auto;
-    height: 100px;
-    align-items: center;
-    padding: 5px;
+    flex-direction: column;
+
 
 
 }
@@ -62,23 +78,21 @@ banner{
 }
 
 .banner h1{
-    font-size: 62px;
+    font-size: 48px;
     font-family: 'Oswald', sans-serif;
     color: #262525;
-
     margin: 0;
     padding: 0;
+
 }
 
-.banner h2{
-    text-align: center;
-    font-size: 24px;
+banner h3{
+    font-size: 16px;
     font-family: 'Barlow Semi Condensed', sans-serif;
-    color: #075b65;
+    color: #262525;
     margin: 0;
     padding: 0;
 }
-
 
 
 footer{
@@ -88,7 +102,10 @@ footer{
     padding: 20px;
 }
 footer p{
-    text-shadow: black 0.1em 0.1em 0.2em;
+font-size: 12px;
+font-family: 'Barlow Semi Condensed', sans-serif;
+color: #262525;
+
 
 }
 
@@ -97,7 +114,7 @@ h1{
 }
 
 h2{
-    font-size: 24px;
+    font-size: 14px;
     font-family: 'Barlow Semi Condensed', sans-serif;
 
 }
