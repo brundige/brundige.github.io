@@ -1,0 +1,117 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+
+body{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    background-image: url(assets/brain.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.body-blur{
+    background-color: rgba(255, 255, 255, 0.1);
+    position: fixed;
+    backdrop-filter: blur(5px);
+    height: 100vh;
+    width: 100vw;
+    z-index:-1;
+
+
+
+}
+
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    width: auto;
+    height: 100px;
+    align-items: center;
+    padding: 5px;
+
+
+}
+
+.logo p{
+    font-size: 12px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    color: #075b65;
+    margin-left: 10px;
+}
+
+
+
+banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    vertical-align: center;
+    height:60vh;
+
+
+
+
+}
+
+.banner h1{
+    font-size: 62px;
+    font-family: 'Oswald', sans-serif;
+    color: #262525;
+
+    margin: 0;
+    padding: 0;
+}
+
+.banner h2{
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    color: #075b65;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+footer{
+
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+footer p{
+    text-shadow: black 0.1em 0.1em 0.2em;
+
+}
+
+h1{
+    font-size: 62px;
+}
+
+h2{
+    font-size: 24px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+
+}
+
+h3{
+    font-size: 36px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+h4{
+    font-size: 24px;
+}
+
+p{
+    font-size: 12px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
