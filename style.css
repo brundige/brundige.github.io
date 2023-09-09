@@ -20,6 +20,15 @@ body{
 
 }
 
+.call-to-action {
+    color: crimson;
+    font-size: 14px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    text-shadow: whitesmoke 0px 0px 10px;
+
+
+}
+
 header{
     display: flex;
     flex-direction: row;
